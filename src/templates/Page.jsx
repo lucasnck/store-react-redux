@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Header from './Header'
+import Header from './menu/Header'
 import Content from './Content'
 
 class Page extends Component {

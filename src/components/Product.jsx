@@ -1,8 +1,5 @@
 import React from 'react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { addProduct } from './cart/CartActions'

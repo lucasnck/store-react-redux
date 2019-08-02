@@ -4,18 +4,18 @@ import React, { Component } from 'react'
 import Showcase from '../components/showcase/Showcase';
 
 // fontawesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import FullBanner from '../components/FullBanner';
 
 class Home extends Component {
 
     render() {
-        return ( 
-            <div>
+        return (
+            <>
+                <FullBanner />
                 <section id="showcase-last-view" className="showcase-container">
                     <Showcase />
                 </section>
-            </div>
+            </>
         )
     }
 

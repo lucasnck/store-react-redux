@@ -7,10 +7,6 @@ import { connect } from 'react-redux'
 
 class MiniCart extends Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         const subTotal = this.props.subTotal.toLocaleString("pt-BR", { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' })
         return (
