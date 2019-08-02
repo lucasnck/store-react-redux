@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 const Routers = () => {
     return (
         <Router>
-            <Route exact path="/" component={(props) => <Page content={Home} {...props} />} />
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={(props) => <Page content={Home} {...props} />} />
         </Router>
     )
 }
